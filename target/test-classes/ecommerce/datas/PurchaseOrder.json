@@ -1,0 +1,19 @@
+[
+{
+		"email" : "anshu1234@gmail.com",
+		"password" : "Anshu@1234",
+		"productName" : "ZARA COAT 3",
+		"writeCountryName" : "ind",
+		"selectCountry" : "india"
+
+},
+
+{
+		"email" : "leena1234@gmail.com",
+		"password" : "Leena@1234",
+		"productName" : "ADIDAS ORIGINAL",
+		"writeCountryName" : "ind",
+		"selectCountry" : "india"
+}
+
+]

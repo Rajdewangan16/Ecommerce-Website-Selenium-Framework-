@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-03T21:20:34 IST" name="Suite" finished-at="2024-02-03T21:23:04 IST" duration-ms="149950">
+    <groups>
+      <group name="smoke">
+        <method signature="ErrorValidationTest.emailErrorValidation(java.util.HashMap)[pri:0, instance:ecommerce.tests.ErrorValidationTest@451001e5]" name="emailErrorValidation" class="ecommerce.tests.ErrorValidationTest"/>
+        <method signature="OrderTest.verifyEmptyCart(java.util.HashMap)[pri:0, instance:ecommerce.tests.OrderTest@66982506]" name="verifyEmptyCart" class="ecommerce.tests.OrderTest"/>
+        <method signature="ProductTest.filterByProductName(java.util.HashMap)[pri:0, instance:ecommerce.tests.ProductTest@312aa7c]" name="filterByProductName" class="ecommerce.tests.ProductTest"/>
+      </group> <!-- smoke -->
+      <group name="errorHandle">
+        <method signature="ErrorValidationTest.emailErrorValidation(java.util.HashMap)[pri:0, instance:ecommerce.tests.ErrorValidationTest@451001e5]" name="emailErrorValidation" class="ecommerce.tests.ErrorValidationTest"/>
+      </group> <!-- errorHandle -->
+    </groups>
+    <test started-at="2024-02-03T21:20:34 IST" name="Test" finished-at="2024-02-03T21:23:04 IST" duration-ms="149950">
+      <class name="ecommerce.tests.ProductTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.ProductTest@312aa7c]" started-at="2024-02-03T21:21:36 IST" name="launchApplication" finished-at="2024-02-03T21:21:52 IST" duration-ms="16033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="filterByProductName(java.util.HashMap)[pri:0, instance:ecommerce.tests.ProductTest@312aa7c]" started-at="2024-02-03T21:21:52 IST" name="filterByProductName" data-provider="userData" finished-at="2024-02-03T21:22:00 IST" duration-ms="7453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Anshu@1234, selectCountry=india, writeCountryName=ind, email=anshu1234@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.ProductTest@312aa7c]" started-at="2024-02-03T21:22:00 IST" name="tearDown" finished-at="2024-02-03T21:22:01 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.ProductTest@312aa7c]" started-at="2024-02-03T21:22:01 IST" name="launchApplication" finished-at="2024-02-03T21:22:14 IST" duration-ms="13616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="filterByProductName(java.util.HashMap)[pri:0, instance:ecommerce.tests.ProductTest@312aa7c]" started-at="2024-02-03T21:22:14 IST" name="filterByProductName" data-provider="userData" finished-at="2024-02-03T21:22:18 IST" duration-ms="3379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Leena@1234, selectCountry=india, writeCountryName=ind, email=leena1234@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.ProductTest@312aa7c]" started-at="2024-02-03T21:22:18 IST" name="tearDown" finished-at="2024-02-03T21:22:18 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.tests.ProductTest -->
+      <class name="ecommerce.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.ErrorValidationTest@451001e5]" started-at="2024-02-03T21:20:35 IST" name="launchApplication" finished-at="2024-02-03T21:21:29 IST" duration-ms="53693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emailErrorValidation(java.util.HashMap)[pri:0, instance:ecommerce.tests.ErrorValidationTest@451001e5]" started-at="2024-02-03T21:21:29 IST" name="emailErrorValidation" data-provider="emailErrorLoginData" finished-at="2024-02-03T21:21:35 IST" duration-ms="6715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Weh@1234, actualErrorMessage=*Enter Valid Email, email=@jhskj%}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.ErrorValidationTest@451001e5]" started-at="2024-02-03T21:21:35 IST" name="tearDown" finished-at="2024-02-03T21:21:36 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.tests.ErrorValidationTest -->
+      <class name="ecommerce.tests.OrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.OrderTest@66982506]" started-at="2024-02-03T21:22:18 IST" name="launchApplication" finished-at="2024-02-03T21:22:33 IST" duration-ms="14692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyEmptyCart(java.util.HashMap)[pri:0, instance:ecommerce.tests.OrderTest@66982506]" started-at="2024-02-03T21:22:33 IST" name="verifyEmptyCart" data-provider="userData" finished-at="2024-02-03T21:22:37 IST" duration-ms="4055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Anshu@1234, selectCountry=india, writeCountryName=ind, email=anshu1234@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.OrderTest@66982506]" started-at="2024-02-03T21:22:37 IST" name="tearDown" finished-at="2024-02-03T21:22:37 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerce.tests.OrderTest@66982506]" started-at="2024-02-03T21:22:37 IST" name="launchApplication" finished-at="2024-02-03T21:22:54 IST" duration-ms="16352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyEmptyCart(java.util.HashMap)[pri:0, instance:ecommerce.tests.OrderTest@66982506]" started-at="2024-02-03T21:22:54 IST" name="verifyEmptyCart" data-provider="userData" finished-at="2024-02-03T21:23:03 IST" duration-ms="9634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Leena@1234, selectCountry=india, writeCountryName=ind, email=leena1234@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.tests.OrderTest@66982506]" started-at="2024-02-03T21:23:03 IST" name="tearDown" finished-at="2024-02-03T21:23:04 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.tests.OrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

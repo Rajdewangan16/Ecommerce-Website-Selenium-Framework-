@@ -1,0 +1,17 @@
+[
+{
+	"email" : "@jhskj%",
+	"password" : "Weh@1234",
+	"actualErrorMessage" : "*Enter Valid Email"
+},
+{	
+	"email" : "Anshu1234@gmail.com",
+	"password" : "",
+	"actualErrorMessage" : "*Password is required"
+},
+{
+	"email" : "Anshu123456@gmail.com",
+	"password" : "Weh@1234",
+	"actualErrorMessage" : "Incorrect email or password."
+}
+]
